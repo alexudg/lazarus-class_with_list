@@ -1,0 +1,30 @@
+object FrMain: TFrMain
+  Left = 254
+  Height = 354
+  Top = 126
+  Width = 562
+  Caption = 'Main'
+  ClientHeight = 354
+  ClientWidth = 562
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object MemLog: TMemo
+    Left = 0
+    Height = 90
+    Top = 264
+    Width = 562
+    Align = alBottom
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 224
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end
